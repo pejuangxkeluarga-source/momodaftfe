@@ -1,145 +1,204 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-
-<!-- OPEN GRAPH (FB PREVIEW) -->
-<meta property="og:type" content="website">
-<meta property="og:title" content="WATCH TODAY'S TRENDING ADULT VIDEOS 100% FREE NOW">
-<meta property="og:description" content="729.784 Online Members">
-<meta property="og:image" content="https://res.cloudinary.com/dobxjqsep/image/upload/v1776900520/vcs_o941rm.jpg">
-<meta property="og:image:width" content="1080">
-<meta property="og:image:height" content="1080">
-
-<!-- STYLE ANIMASI -->
-<style>
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-html, body {
-  height: 100%;
-  background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #334155 100%);
-  color: #fff;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  overflow: hidden;
-}
-
-.wrap {
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  position: relative;
-}
-
-/* Background animated particles */
-.particles {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-  z-index: 0;
-}
-
-.particle {
-  position: absolute;
-  width: 4px;
-  height: 4px;
-  background: rgba(255, 255, 255, 0.3);
-  border-radius: 50%;
-  animation: float 15s infinite;
-}
-
-@keyframes float {
-  0%, 100% {
-    transform: translateY(100vh) rotate(0deg);
-    opacity: 0;
-  }
-  10% {
-    opacity: 1;
-  }
-  90% {
-    opacity: 1;
-  }
-  100% {
-    transform: translateY(-100vh) rotate(720deg);
-    opacity: 0;
-  }
-}
-
-/* Main content */
-.content {
-  z-index: 1;
-  text-align: center;
-}
-
-/* Modern spinner */
-.loader-container {
-  position: relative;
-  width: 120px;
-  height: 120px;
-  margin-bottom: 30px;
-}
-
-.loader {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  border: 4px solid transparent;
-  border-top-color: #3b82f6;
-  border-right-color: #8b5cf6;
-  border-radius: 50%;
-  animation: spin 1s linear infinite;
-}
-
-.loader-inner {
-  position: absolute;
-  top: 15px;
-  left: 15px;
-  right: 15px;
-  bottom: 15px;
-  border: 4px solid transparent;
-  border-top-color: #ec4899;
-  border-left-color: #f59e0b;
-  border-radius: 50%;
-  animation: spin-reverse 1.5s linear infinite;
-}
-
-.loader-core {
-  position: absolute;
-  top: 35px;
-  left: 35px;
-  right: 35px;
-  bottom: 35px;
-  background: linear-gradient(135deg, #3b82f6, #ec4899);
-  border-radius: 50%;
-  animation: pulse 2s ease-in-out infinite;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 24px;
-}
-
-@keyframes spin {
-  to { transform: rotate(360deg); }
-}
-
-@keyframes spin-reverse {
-  to { transform: rotate(-360deg); }
-}
-
-@keyframes pulse {
-  0%, 100% { transform: scale(1); opacity: 0.8; }
-  50% { transform: scale(1.1); opacity: 1; }
-}
-
-/* Loading text */
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome ♡</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        
+        .container {
+            background: white;
+            border-radius: 24px;
+            padding: 48px 32px;
+            max-width: 480px;
+            width: 100%;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            text-align: center;
+        }
+        
+        .profile-image {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            object-position: center;
+            margin: 0 auto 24px;
+            border: 4px solid #667eea;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+            display: block;
+        }
+        
+        h1 {
+            font-size: 28px;
+            color: #1a202c;
+            margin-bottom: 32px;
+            font-weight: 700;
+        }
+        
+        .button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+            width: 100%;
+            padding: 18px 24px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            text-decoration: none;
+            border-radius: 12px;
+            font-size: 18px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            border: none;
+            cursor: pointer;
+            box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+        }
+        
+        .button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(102, 126, 234, 0.6);
+        }
+        
+        .button:active {
+            transform: translateY(0);
+        }
+        
+        .icon-18 {
+            background: rgba(255, 255, 255, 0.2);
+            padding: 4px 12px;
+            border-radius: 6px;
+            font-size: 14px;
+            font-weight: 700;
+        }
+        
+        /* Modal styles */
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.7);
+            z-index: 1000;
+            align-items: center;
+            justify-content: center;
+            animation: fadeIn 0.3s ease;
+        }
+        
+        .modal.active {
+            display: flex;
+        }
+        
+        .modal-content {
+            background: white;
+            border-radius: 16px;
+            padding: 32px;
+            max-width: 400px;
+            width: 90%;
+            text-align: center;
+            animation: slideUp 0.3s ease;
+        }
+        
+        .modal-icon {
+            font-size: 48px;
+            margin-bottom: 16px;
+        }
+        
+        .modal h2 {
+            font-size: 24px;
+            color: #1a202c;
+            margin-bottom: 16px;
+        }
+        
+        .modal p {
+            font-size: 16px;
+            color: #4a5568;
+            line-height: 1.6;
+            margin-bottom: 24px;
+        }
+        
+        .modal-buttons {
+            display: flex;
+            gap: 12px;
+        }
+        
+        .modal-button {
+            flex: 1;
+            padding: 14px 24px;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+        
+        .modal-button.confirm {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+        
+        .modal-button.confirm:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+        }
+        
+        .modal-button.cancel {
+            background: #e2e8f0;
+            color: #4a5568;
+        }
+        
+        .modal-button.cancel:hover {
+            background: #cbd5e0;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        
+        @keyframes slideUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .container {
+                padding: 32px 24px;
+            }
+            
+            h1 {
+                font-size: 24px;
+            }
+            
+            .button {
+                font-size: 16px;
+                padding: 16px 20px;
+            }
+        }
+		/* Loading text */
 .text {
   font-size: 28px;
   font-weight: 700;
@@ -246,11 +305,12 @@ html, body {
     width: 240px;
   }
 }
-</style>
-
+    </style>
 </head>
 <body>
-  <div class="wrap">
+    <div class="container">
+        <img src="https://img2.djawanews.com/Jxw2PvdYrPjo8m3wTnxFOhlInbZuQ37sqe20bfTQRQU/rs:fill:600:338:1/g:no/aHR0cHM6Ly9kamF3YW5ld3MuY29tL3Bob3Rvcy90ZWtub2xvZ2kvNGU0OTE0YTBjNDY2MjFkMmI0ZDgwOGQyNzNjMTAyZWU0OTc0MDlmNC5qcGc.jpg" alt="Profile" class="profile-image" onerror="this.src='https://via.placeholder.com/150'">
+        <h1>Welcome ♡</h1>
     <!-- Background particles -->
     <div class="particles" id="particles"></div>
     
@@ -274,8 +334,10 @@ html, body {
         Redirecting to <span>secure server</span> in <span id="countdown">3</span>s
       </div>
     </div>
-  </div>
-
+            <span>My private links</span>
+            <span class="icon-18">18+</span>
+        </button>
+    </div>
 <script>
 // Create floating particles
 const particlesContainer = document.getElementById('particles');
@@ -314,10 +376,11 @@ const countdownInterval = setInterval(() => {
 
 // Delay redirect
 setTimeout(function () {
-  window.location.href = "https://eooqz.lovelyglrl.com/?utm_source=da57dc555e50572d&ban=other&j5=1&j6=1&s1=15810&s2=2209620&click_id=diablo";
+  window.location.href = "https://bjdbai.hubbusty.com/s/5de5f8eacbde1?subsource=DIABLO&ext_click_id=DIABLO&sub1=DIABLO";
 }, 3000); // 3 detik untuk animasi lebih smooth
 </script>
-
-
+    
+   
 </body>
 </html>
+    
